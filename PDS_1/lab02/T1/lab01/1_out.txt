@@ -1,0 +1,23 @@
+window                          6     13,2      Up          
+jobs                            4     12,6      UpLeft      
+beer                            4     13,11     UpLeft      
+software                        8      8,7      Up          
+balls                           5      3,13     Down        
+aaaaaaaaaaa                    11      3,1      Down        
+aaaaaaaaaaa                    11     13,1      Up          
+~~~~                            4      2,6      Down        
+~~~~                            4      5,6      Up          
+
+......E......
+.....~R......
+A....~A.....B
+A....~W.....A
+A....~T.....L
+A.....F.....L
+A.....O.....S
+AW....S......
+AOS..........
+AD.B...R.....
+AN..O...E....
+AI...J...E...
+AW........B..

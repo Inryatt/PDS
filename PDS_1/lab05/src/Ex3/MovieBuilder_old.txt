@@ -1,0 +1,82 @@
+package Ex3;
+
+import java.util.List;
+
+public class    MovieBuilder {
+    private String movieTitle;
+    private int movieYear;
+    private Person movieDirector;
+    private Person movieWriter;
+    private String movieSeries;
+    private List<Person> movieCast;
+    private List<Place> movieLocations;
+    private List<String> movieLanguages;
+    private List<String> movieGenres;
+    private boolean television;
+    private boolean netflix;
+    private boolean independent;
+
+    public MovieBuilder setMovieTitle(String movieTitle) {
+        this.movieTitle = movieTitle;
+        return this;
+    }
+
+    public MovieBuilder setMovieYear(int movieYear) {
+        this.movieYear = movieYear;
+        return this;
+    }
+
+    public MovieBuilder setMovieDirector(Person movieDirector) {
+        this.movieDirector = movieDirector;
+        return this;
+    }
+
+    public MovieBuilder setMovieWriter(Person movieWriter) {
+        this.movieWriter = movieWriter;
+        return this;
+    }
+
+    public MovieBuilder setMovieSeries(String movieSeries) {
+        this.movieSeries = movieSeries;
+        return this;
+    }
+
+    public MovieBuilder setMovieCast(List<Person> movieCast) {
+        this.movieCast = movieCast;
+        return this;
+    }
+
+    public MovieBuilder setMovieLocations(List<Place> movieLocations) {
+        this.movieLocations = movieLocations;
+        return this;
+    }
+
+    public MovieBuilder setMovieLanguages(List<String> movieLanguages) {
+        this.movieLanguages = movieLanguages;
+        return this;
+    }
+
+    public MovieBuilder setMovieGenres(List<String> movieGenres) {
+        this.movieGenres = movieGenres;
+        return this;
+    }
+
+    public MovieBuilder setTelevision(boolean television) {
+        this.television = television;
+        return this;
+    }
+
+    public MovieBuilder setNetflix(boolean netflix) {
+        this.netflix = netflix;
+        return this;
+    }
+
+    public MovieBuilder setIndependent(boolean independent) {
+        this.independent = independent;
+        return this;
+    }
+
+    public Movie createMovie() {
+        return new Movie(movieTitle, movieYear, movieDirector, movieWriter, movieSeries, movieCast, movieLocations, movieLanguages, movieGenres, television, netflix, independent);
+    }
+}

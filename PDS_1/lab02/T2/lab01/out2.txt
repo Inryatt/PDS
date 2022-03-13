@@ -1,0 +1,7 @@
+ola                  3     3,1        UPRIGHT 
+la                   2     2,3          RIGHT 
+
+. . A . 
+. L L A 
+O . . . 
+. . . . 

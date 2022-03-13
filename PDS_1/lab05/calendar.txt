@@ -1,0 +1,15 @@
+A classe Calendar de java aparenta seguir o Factory Creation Pattern:
+    - Construtores de objetos Calendar são protected, não podemos criar
+    instancias do mesmo fora da classe usando new();
+    - Para se obter um objeto do tipo Calendar devemos então utilizar o método
+    getInstance(...), que será o seu método fábrica;
+    - Deste modo, diferentemente a um construtor, o método que retorna o objeto
+    Calendar pode retornar instancias de subclasses de calendar, como por exemplo
+    BuddhistCalendar ou GregorianCalendar, entre outros.
+
+Esta implementa também o padrão de construção de Protótipo:
+    - Quando se cria um calendário
+
+
+https://www.javaer101.com/pt/article/28539391.html
+
