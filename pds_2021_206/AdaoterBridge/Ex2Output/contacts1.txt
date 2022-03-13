@@ -1,0 +1,5 @@
+João Farias;912345678;joão@ua.pt
+Maria;919191919;mariaa@gmail.com
+Fátima Teresa;934137854;teresinha@icloud.com
+Raquel Barcelos;965554333;galodebarcelos@ua.pt
+Palmira Esteves;9177;palmirita@gmail.com
